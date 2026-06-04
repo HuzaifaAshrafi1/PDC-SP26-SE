@@ -204,7 +204,7 @@ graph TD
     classDef s2 fill:#FFF3E0,stroke:#FF9800,stroke-width:2px,color:#E65100;
     classDef s3 fill:#EDE7F6,stroke:#673AB7,stroke-width:2px,color:#311B92;
 
-    Client[Client App] -->|1. Initial process(msg)| Server1[Server 1]
+    Client[Client App] -->|1. Initial process message| Server1[Server 1]
     Server1 -->|2. Forward| Server2[Server 2]
     Server2 -->|3. Forward| Server3[Server 3]
     Server3 -->|4. Loop detection| Server1
