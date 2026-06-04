@@ -97,7 +97,6 @@ Distributed systems are designed in various shapes and structures depending on o
 In a client-server architecture, tasks or workloads are partitioned between the providers of a service, called **servers**, and service requesters, called **clients**.
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#475569', 'primaryColor': '#f8fafc', 'primaryTextColor': '#0f172a', 'primaryBorderColor': '#cbd5e1', 'actorBorder': '#4f46e5', 'actorBkg': '#e0e7ff', 'actorTextColor': '#1e1b4b' }}}%%
 sequenceDiagram
     autonumber
     actor Client as Client (Requestor)
@@ -147,7 +146,6 @@ This implementation demonstrates a simple server that listens on a port, accepts
 
 #### Architecture Flowchart:
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#475569', 'primaryColor': '#f8fafc', 'primaryTextColor': '#0f172a', 'primaryBorderColor': '#cbd5e1', 'actorBorder': '#4f46e5', 'actorBkg': '#e0e7ff', 'actorTextColor': '#1e1b4b' }}}%%
 sequenceDiagram
     autonumber
     actor Server as Server (server.py)
@@ -176,7 +174,6 @@ This implementation demonstrates sending a file (`mytext.txt`) from a server to 
 
 #### Architecture Flowchart:
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#475569', 'primaryColor': '#f8fafc', 'primaryTextColor': '#0f172a', 'primaryBorderColor': '#cbd5e1', 'actorBorder': '#4f46e5', 'actorBkg': '#e0e7ff', 'actorTextColor': '#1e1b4b' }}}%%
 sequenceDiagram
     autonumber
     actor Server as Server (server2.py)
@@ -252,7 +249,6 @@ On Windows, Celery needs a compatible event pool execution method. You can run C
 
 #### Pyro4 Communication Architecture:
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#475569', 'primaryColor': '#f8fafc', 'primaryTextColor': '#0f172a', 'primaryBorderColor': '#cbd5e1', 'actorBorder': '#4f46e5', 'actorBkg': '#e0e7ff', 'actorTextColor': '#1e1b4b' }}}%%
 sequenceDiagram
     autonumber
     actor NameServer as Pyro Name Server (pyro4-ns)

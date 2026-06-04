@@ -106,7 +106,6 @@ Processes can be set as `daemon=True` to run in the background. A background (da
 **Example Implementation:** See [run_background_processes.py](Codes/run_background_processes.py)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#475569', 'primaryColor': '#f8fafc', 'primaryTextColor': '#0f172a', 'primaryBorderColor': '#cbd5e1', 'actorBorder': '#4f46e5', 'actorBkg': '#e0e7ff', 'actorTextColor': '#1e1b4b' }}}%%
 sequenceDiagram
     autonumber
     actor M as Main Process
@@ -119,7 +118,6 @@ sequenceDiagram
     N-->>M: complete
     Note over M,D: Main completes.<br/>Daemon forcefully killed.
 ```
-
 ### 4.1 Non-Daemon Background Processes
 If a process is explicitly set to `daemon=False`, the main process will block and wait for it to exit, ensuring its tasks complete fully.
 

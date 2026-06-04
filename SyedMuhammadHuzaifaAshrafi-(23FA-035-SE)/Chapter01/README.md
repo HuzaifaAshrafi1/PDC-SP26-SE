@@ -289,7 +289,6 @@ A systematic approach to parallel program design involves four key steps.
 - **Dynamic Mapping (5.5):** Tasks are assigned to processors at runtime. Suitable when task execution times are unpredictable or when the system is heterogeneous. Improves load balancing but adds scheduling overhead.
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#475569', 'primaryColor': '#f8fafc', 'primaryTextColor': '#0f172a', 'primaryBorderColor': '#cbd5e1', 'actorBorder': '#4f46e5', 'actorBkg': '#e0e7ff', 'actorTextColor': '#1e1b4b' }}}%%
 sequenceDiagram
     autonumber
     actor Problem as 1. The Problem
